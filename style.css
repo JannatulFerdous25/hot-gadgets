@@ -5,3 +5,89 @@
 .container{
     margin-bottom: 100px;
 }
+.navbar-brand img{
+width:100px;
+margin-right: 600px;
+}
+.button{
+    background-color: black;
+    color:#fff;
+    padding: 7px 21px;
+    border-radius: 10px;
+    border: none;;
+}
+header nav{
+    background-image: url(images/);
+    position: fixed;
+}
+.carousel-indicators .active{
+   
+    background-image: linear-gradient(to right,#FF9C35 0% , #FFD019 100%);
+    width: 30px;
+    height: 10px;
+    border-radius: 3px;
+}
+.carousel-indicators li{
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #CECECE
+}
+/* .carousel-indicators{
+    border-radius: 10px;
+    margin-top: 45px;
+} */
+
+.card-footer{
+    border-top: none;
+    background-color: #fff;
+
+}
+.head{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.head p{
+    color:orange;
+}
+.card-footer .button{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.para{
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 13px lightgray;
+    padding: 15px;
+}
+.cat h3{
+        text-align: center;
+        width: 160px;
+        border-bottom: 4px solid transparent;
+        padding-bottom: 6px;
+        border-image: linear-gradient(to right,#FF9C35 0% , #FFD019 100%);
+        border-image-slice: 1;
+   
+}
+/* .cat::after{
+    content: "";
+    width:20px;
+    height:5px;
+    color:orange;
+    border-bottom: 20px solid orange;
+} */
+.cat-img{
+    box-shadow: 3px 3px 10px lightgray;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+    
